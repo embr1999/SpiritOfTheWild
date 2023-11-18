@@ -72,3 +72,13 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#FilesThatAreToLarge
+Demo_Landscape_A.umap
+Demo_Landscape_A_Road.umap
+Demo_Landscape_A_Winter.umap
+Demo_Landscape_B.umap
+Demo_Landscape_B_Winter.umap
+T_ForestGround_3_N.uasset
+Demo_Landscape_A_Auto2.umap
+TestLandscape.umap
