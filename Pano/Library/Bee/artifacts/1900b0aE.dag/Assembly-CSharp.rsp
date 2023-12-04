@@ -770,7 +770,7 @@
 "Assets/OpenCV+Unity/Demo/Scripts/WebCamera.cs"
 "Assets/OpenCV+Unity/Demo/Tracking/TrackingScript.cs"
 -langversion:9.0
-
+/unsafe+
 /deterministic
 /optimize+
 /debug:portable
