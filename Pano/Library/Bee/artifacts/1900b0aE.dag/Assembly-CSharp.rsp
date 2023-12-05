@@ -769,6 +769,7 @@
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Scripts/FaceProcessor.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Scripts/WebCamera.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Tracking/TrackingScript.cs"
+"Assets/Scripts/NetworkObserver.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
