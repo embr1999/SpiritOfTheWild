@@ -338,7 +338,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02597e9ac095adf4cb0c5297311351ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NetworkPorts: 2702000039050000a401000000000000000000000000000000000000000000000000000000000000
+  local: 1
+  serverIP: 0.0.0.0
+  port: 0
 --- !u!4 &1729933002
 Transform:
   m_ObjectHideFlags: 0

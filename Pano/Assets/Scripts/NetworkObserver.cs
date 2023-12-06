@@ -1,28 +1,77 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Net.Sockets;
+using System.Text;
 
 public class NetworkObserver : MonoBehaviour
 {
-    [SerializeField] private int[] NetworkPorts = new int[0];
+    private TcpClient tcpClient;
+    private NetworkStream networkStream;
+    private byte[] receiveBuffer = new byte[1024];
 
-    // Start is called before the first frame update
+    [SerializeField] private bool local = false;
+
+    // Server IP and Port
+    [SerializeField] 
+    [Tooltip("If local is checked then all input will be ignored")]
+    private string serverIP = "0.0.0.0";
+    private string localhostIP = "127.0.0.1";
+    [SerializeField]  private int port = 0;
+
     void Start()
     {
-        
-    }
+        if(local){
+            serverIP = localhostIP;
+        }
 
-    // Update is called once per frame
+        // Connect to the server
+        ConnectToServer();
+    }
     void Update()
     {
-        try{
-            if(NetworkPorts[1] == 100){
-                print("Cat");
-            }else{
-                print("Owl");
-            }
+        // Check for incoming data
+        ReadData();
+    }
 
-        }catch{
+    private void ConnectToServer()
+    {
+        try
+        {
+            tcpClient = new TcpClient(serverIP, port);
+            networkStream = tcpClient.GetStream();
+            Debug.Log("Connected to server.");
         }
+        catch (SocketException ex)
+        {
+            Debug.LogError($"SocketException: {ex.ErrorCode} - {ex.Message}");
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Error connecting to server: {e.Message}");
+        }
+    }
+
+    private void ReadData()
+    {
+        if (networkStream != null && networkStream.DataAvailable)
+        {
+            try
+            {
+                int bytesRead = networkStream.Read(receiveBuffer, 0, receiveBuffer.Length);
+                string receivedData = Encoding.UTF8.GetString(receiveBuffer, 0, bytesRead);
+                Debug.Log($"Received data: {receivedData}");
+            }
+            catch (Exception e)
+            {
+                Debug.LogError($"Error reading data: {e.Message}");
+            }
+        }
+    }
+
+    private void OnDestroy()
+    {
+        // Clean up resources when the script is destroyed
+        if (tcpClient != null)
+            tcpClient.Close();
     }
 }
