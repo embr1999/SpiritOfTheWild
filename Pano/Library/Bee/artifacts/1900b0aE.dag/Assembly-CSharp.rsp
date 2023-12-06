@@ -817,8 +817,10 @@
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Scripts/WebCamera.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Tracking/TrackingScript.cs"
 "Assets/Scripts/FloodLightManager.cs"
+"Assets/Scripts/FogHandler.cs"
 "Assets/Scripts/MotionTracker.cs"
 "Assets/Scripts/NetworkObserver.cs"
+"Assets/Scripts/SunMoonCycler.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
