@@ -2,6 +2,7 @@ using UnityEngine;
 using System;
 using System.Net.Sockets;
 using System.Text;
+using Unity.VisualScripting;
 
 public class NetworkObserver : MonoBehaviour
 {
@@ -17,6 +18,10 @@ public class NetworkObserver : MonoBehaviour
     private string serverIP = "0.0.0.0";
     private string localhostIP = "127.0.0.1";
     [SerializeField]  private int port = 0;
+
+    [Space(5)]
+
+    [SerializeField] private string receivedPortData = "";
 
     void Start()
     {
@@ -60,6 +65,9 @@ public class NetworkObserver : MonoBehaviour
                 int bytesRead = networkStream.Read(receiveBuffer, 0, receiveBuffer.Length);
                 string receivedData = Encoding.UTF8.GetString(receiveBuffer, 0, bytesRead);
                 Debug.Log($"Received data: {receivedData}");
+                
+                //converts receivedData to String
+                receivedPortData = receivedData.ToString();
             }
             catch (Exception e)
             {
