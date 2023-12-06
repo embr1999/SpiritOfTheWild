@@ -411,6 +411,7 @@
 "Assets/Assets Packagemanager/DreamForestTree/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/Assets Packagemanager/DreamForestTree/Script/FreeCam.cs"
 "Assets/Assets Packagemanager/DreamForestTree/Script/ScrollUVWater.cs"
+"Assets/Assets Packagemanager/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Assets/Scripts/DLib/PInvoke/NativeMethods_dlib.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Assets/Scripts/DLib/ShapePredictor.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Assets/Scripts/OpenCvSharp/Constants.cs"
@@ -815,6 +816,7 @@
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Scripts/FaceProcessor.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Scripts/WebCamera.cs"
 "Assets/Assets Packagemanager/OpenCV+Unity/Demo/Tracking/TrackingScript.cs"
+"Assets/Scripts/FloodLightManager.cs"
 "Assets/Scripts/MotionTracker.cs"
 "Assets/Scripts/NetworkObserver.cs"
 -langversion:9.0
