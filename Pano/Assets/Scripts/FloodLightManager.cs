@@ -13,6 +13,7 @@ public class FloodLightManager : MonoBehaviour
     [SerializeField] private Transform lookAtTarget = null;
 
     private Vector3 moveVector = new Vector3(1f, 0f, 0f);
+    private Vector3 lookAtTargetOrigin = new Vector3(0f, 0f, 0f);
     private bool invertMovement = false;
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class FloodLightManager : MonoBehaviour
         {
             return;
         }
+        lookAtTargetOrigin = lookAtTarget.transform.position;
     }
 
     // Update is called once per frame
@@ -50,12 +52,12 @@ public class FloodLightManager : MonoBehaviour
         if(lookAtTarget.transform.position.x >= 180f)
         {
             invertMovement = true;
-            lookAtTarget.transform.position = new Vector3(180f, 0f, 0f);
+            lookAtTarget.transform.position = new Vector3(180f, lookAtTargetOrigin.y, lookAtTargetOrigin.z);
         }
         else if(lookAtTarget.transform.position.x <= -180f)
         {
             invertMovement = false;
-            lookAtTarget.transform.position = new Vector3(-180f, 0f, 0f);
+            lookAtTarget.transform.position = new Vector3(-180f, lookAtTargetOrigin.y, lookAtTargetOrigin.z);
         }
 
     }
