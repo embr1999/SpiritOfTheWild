@@ -7,17 +7,17 @@ using UnityEngine.Video;
 public class FloodLightManager : MonoBehaviour
 {
 
+    [SerializeField] [Range(0.01f, 1f)] private float searchSpeed = 1f;
     [SerializeField] private bool searchMode = false;
-    [SerializeField] private GameObject light = null;
+    [SerializeField] private GameObject lightObject = null;
+    [SerializeField] private Transform lookAtTarget = null;
 
-    [SerializeField] private float rotationSpeed = 0f;
-    [SerializeField] private bool limitToOneEighty = false;
-    [Range(0,360)] private float rotationState = 0f;
-
+    private Vector3 moveVector = new Vector3(1f, 0f, 0f);
+    private bool invertMovement = false;
     // Start is called before the first frame update
     void Start()
     {
-        if(light == null)
+        if(lightObject == null)
         {
             return;
         }
@@ -34,6 +34,29 @@ public class FloodLightManager : MonoBehaviour
 
     private void SearchModeLights()
     {
-        light.transform.Rotate(0, rotationSpeed * Time.deltaTime, 0f);
+        if(invertMovement)
+        {
+           //var searchSpeedMod = -searchSpeed;
+            moveVector = new Vector3(-searchSpeed, 0f, 0f);
+        }
+        else
+        {
+            moveVector = new Vector3(searchSpeed, 0f, 0f);
+        }
+
+        lightObject.transform.LookAt(lookAtTarget);
+        lookAtTarget.transform.position += moveVector;
+
+        if(lookAtTarget.transform.position.x >= 180f)
+        {
+            invertMovement = true;
+            lookAtTarget.transform.position = new Vector3(180f, 0f, 0f);
+        }
+        else if(lookAtTarget.transform.position.x <= -180f)
+        {
+            invertMovement = false;
+            lookAtTarget.transform.position = new Vector3(-180f, 0f, 0f);
+        }
+
     }
 }
