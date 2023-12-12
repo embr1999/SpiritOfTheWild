@@ -1,0 +1,1911 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.EditorCoroutines.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.EditorCoroutines.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Performance.Profile-Analyzer.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Performance.Profile-Analyzer.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.PlasticSCM.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.PlasticSCM.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Rider.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Rider.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.SettingsProvider.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Shared.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Shared.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualStudio.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualStudio.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VSCode.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VSCode.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Core.csproj",
+        "projectName": "Aura2_Core",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Core.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Aura2_Core\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Editor.csproj",
+        "projectName": "Aura2_Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Aura2_Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Aura2_Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.EditorCoroutines.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.EditorCoroutines.Editor.csproj",
+        "projectName": "Unity.EditorCoroutines.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.EditorCoroutines.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.EditorCoroutines.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Performance.Profile-Analyzer.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Performance.Profile-Analyzer.Editor.csproj",
+        "projectName": "Unity.Performance.Profile-Analyzer.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Performance.Profile-Analyzer.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.Performance.Profile-Analyzer.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.PlasticSCM.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.PlasticSCM.Editor.csproj",
+        "projectName": "Unity.PlasticSCM.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.PlasticSCM.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.PlasticSCM.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Rider.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Rider.Editor.csproj",
+        "projectName": "Unity.Rider.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Rider.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.Rider.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Settings.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Settings.Editor.csproj",
+        "projectName": "Unity.Settings.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Settings.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.Settings.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.csproj",
+        "projectName": "Unity.TestTools.CodeCoverage.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.TestTools.CodeCoverage.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Settings.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Settings.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj",
+        "projectName": "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj",
+        "projectName": "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.csproj",
+        "projectName": "Unity.TextMeshPro",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.TextMeshPro\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.Editor.csproj",
+        "projectName": "Unity.TextMeshPro.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.TextMeshPro.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.TextMeshPro.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.csproj",
+        "projectName": "Unity.Timeline",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.Timeline\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.Editor.csproj",
+        "projectName": "Unity.Timeline.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.Timeline.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.Timeline.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj",
+        "projectName": "Unity.VisualScripting.Core",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.Core\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Core.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.Core.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj",
+        "projectName": "Unity.VisualScripting.Flow",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.Flow\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Flow.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.Flow.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "projectName": "Unity.VisualScripting.SettingsProvider.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.SettingsProvider.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Shared.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Shared.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Shared.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Shared.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.Shared.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj",
+        "projectName": "Unity.VisualScripting.State",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.State\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.Editor.csproj",
+        "projectName": "Unity.VisualScripting.State.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualScripting.State.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualScripting.State.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualStudio.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualStudio.Editor.csproj",
+        "projectName": "Unity.VisualStudio.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VisualStudio.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VisualStudio.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VSCode.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VSCode.Editor.csproj",
+        "projectName": "Unity.VSCode.Editor",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Unity.VSCode.Editor.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\Unity.VSCode.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\UnityEditor.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\UnityEditor.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEditor.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj"
+              },
+              "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+                "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\UnityEngine.TestRunner\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "G:\\Git\\SpiritOfTheWild\\Pano\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\Klara\\.nuget\\packages\\",
+        "outputPath": "G:\\Git\\SpiritOfTheWild\\Pano\\Temp\\obj\\Debug\\UnityEngine.UI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Klara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
