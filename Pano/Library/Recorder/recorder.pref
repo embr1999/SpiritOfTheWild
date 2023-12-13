@@ -20,7 +20,7 @@ MonoBehaviour:
   m_EndFrame: 0
   m_StartTime: 0
   m_EndTime: 0
-  m_CapFrameRate: 0
+  m_CapFrameRate: 1
   m_ExitPlayMode: 1
   m_RecorderSettings:
   - {fileID: 2}
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 3
+  take: 5
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -52,12 +52,12 @@ MonoBehaviour:
   captureAlpha: 0
   captureAudio: 1
   m_ImageInputSelector:
-    m_Selected: gameViewInputSettings
+    m_Selected: cameraInputSettings
     gameViewInputSettings:
       m_OutputResolution:
-        m_CustomWidth: 1024
-        m_CustomHeight: 1024
-        imageHeight: 0
+        m_CustomWidth: 3240
+        m_CustomHeight: 1980
+        imageHeight: 2147483647
         maxSupportedHeight: 2160
         m_AspectRatio:
           m_CustomAspectX: 1
@@ -66,15 +66,15 @@ MonoBehaviour:
       flipFinalOutput: 0
     cameraInputSettings:
       m_OutputResolution:
-        m_CustomWidth: 1024
-        m_CustomHeight: 1024
-        imageHeight: 0
+        m_CustomWidth: 3240
+        m_CustomHeight: 1920
+        imageHeight: 2147483647
         maxSupportedHeight: 4320
         m_AspectRatio:
           m_CustomAspectX: 1
           m_CustomAspectY: 1
           m_ImageAspect: 1
-      source: 2
+      source: 1
       cameraTag: 
       flipFinalOutput: 0
       captureUI: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
         numConsecutiveBFrames: 2
         encodingProfile: 2
         keyframeDistance: 25
-        codec: 0
+        codec: 1
         encodingQuality: 2
     - rid: 8364171064055169025
       type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
