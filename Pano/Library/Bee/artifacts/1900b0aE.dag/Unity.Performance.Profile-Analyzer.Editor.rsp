@@ -120,6 +120,9 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"Assets/Assets Packagemanager/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll"
+-r:"Assets/Assets Packagemanager/EasyRoads3D/lib/DelaunayER.dll"
+-r:"Assets/Assets Packagemanager/EasyRoads3D/lib/EasyRoads3Dv3.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -349,6 +352,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/EasyRoads3D/Editor/EasyRoads3Dv3Editor.dll"
+-analyzer:"Assets/EasyRoads3D/lib/DelaunayER.dll"
+-analyzer:"Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2/Editor/Analytics.cs"
