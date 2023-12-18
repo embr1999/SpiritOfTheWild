@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 0
     width: 359
     height: 619
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -452,9 +452,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ceacfdff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 64f9ffff
+      m_ExpandedIDs: 90a0fdff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -808,9 +808,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 420.27893, y: -0.018013, z: 59.360462}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 420.27893, y: -0.018013, z: 59.360462}
+    m_Value: {x: 0.000050101153, y: -0.000000002147317, z: 0.0000070763185}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -858,11 +858,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.13020837, y: 0.8452571, z: -0.24041699, w: -0.4594319}
     speed: 2
-    m_Value: {x: -0.1305498, y: 0.8444438, z: -0.24018636, w: -0.46063206}
+    m_Value: {x: -0.13018937, y: 0.8451338, z: -0.24038191, w: -0.45936486}
   m_Size:
-    m_Target: 47.006615
+    m_Target: 3.8580515
     speed: 2
-    m_Value: 49.221584
+    m_Value: 3.8594987
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1295,7 +1295,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets Custom/Models/Ural 4320
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1303,16 +1303,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Assets Custom/Models/Ural 4320
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: G:\Git\SpiritOfTheWild\Pano
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 127}
-    m_SelectedIDs: 1cb10000
-    m_LastClickedID: 45340
-    m_ExpandedIDs: 00000000fab0000012b100001eb1000000ca9a3b
+    scrollPos: {x: 0, y: 233}
+    m_SelectedIDs: feb00000
+    m_LastClickedID: 45310
+    m_ExpandedIDs: 00000000aeb00000f6b00000f8b0000004b1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1340,7 +1340,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fab00000
+    m_ExpandedIDs: 00000000aeb00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
