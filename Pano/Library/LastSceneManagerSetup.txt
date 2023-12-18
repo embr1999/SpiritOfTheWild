@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Scenes/MainScene.unity
+=======
+- path: C:/Users/Johann/AppData/Local/Temp/Rar$DIa20600.24382/OSC Unity Example.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
