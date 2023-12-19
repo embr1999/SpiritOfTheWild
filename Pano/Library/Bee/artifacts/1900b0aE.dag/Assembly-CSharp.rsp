@@ -882,6 +882,7 @@
 "Assets/Scripts/MotionTracker.cs"
 "Assets/Scripts/NetworkObserver.cs"
 "Assets/Scripts/SunMoonCycler.cs"
+"Assets/Scripts/UDPReceiver.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
