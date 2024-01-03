@@ -875,7 +875,7 @@
 "Assets/Assets Packagemanager/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Twirl.cs"
 "Assets/Assets Packagemanager/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
 "Assets/Assets Packagemanager/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Vortex.cs"
-"Assets/Scripts/Demo_MoveDoe.cs"
+"Assets/Scripts/Demo_MoveInLine.cs"
 "Assets/Scripts/FloodLightManager.cs"
 "Assets/Scripts/FocusFollowCamera.cs"
 "Assets/Scripts/FogHandler.cs"
