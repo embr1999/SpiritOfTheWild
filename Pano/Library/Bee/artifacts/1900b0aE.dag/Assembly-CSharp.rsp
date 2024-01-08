@@ -876,12 +876,13 @@
 "Assets/Assets Packagemanager/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
 "Assets/Assets Packagemanager/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Vortex.cs"
 "Assets/Scripts/Demo_MoveInLine.cs"
+"Assets/Scripts/ExpTimer.cs"
 "Assets/Scripts/FloodLightManager.cs"
 "Assets/Scripts/FocusFollowCamera.cs"
 "Assets/Scripts/FogHandler.cs"
+"Assets/Scripts/LightCycle.cs"
 "Assets/Scripts/MotionTracker.cs"
 "Assets/Scripts/NetworkObserver.cs"
-"Assets/Scripts/SunMoonCycler.cs"
 "Assets/Scripts/UDPReceiver.cs"
 -langversion:9.0
 /unsafe+

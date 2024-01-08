@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657755, g: 0.4964127, b: 0.57481825, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1072,7 +1072,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4226183, y: -0, z: -0, w: 0.9063078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3099,6 +3099,7 @@ GameObject:
   - component: {fileID: 1689015518}
   - component: {fileID: 1689015520}
   - component: {fileID: 1689015519}
+  - component: {fileID: 1689015521}
   m_Layer: 0
   m_Name: VFX
   m_TagString: Untagged
@@ -3137,11 +3138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd38b1812de3124e99e2944af496312, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dayNightCycle: 0
-  cycleState: 0
-  lightIntensity: 0.1
-  enablePresets: 0
-  directionalLight: {fileID: 705507993}
+  totalTime: 300
 --- !u!114 &1689015520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3154,6 +3151,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b55bcd6d2a1bbb42a9bef077116f6d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1689015521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689015517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7404e2c92f3d0d844a992631f066c637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightObject: {fileID: 705507993}
+  startValue: 0
+  targetValue: 20
+  totalTime: 300
 --- !u!1001 &1691825392
 PrefabInstance:
   m_ObjectHideFlags: 0
