@@ -401,6 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2127789686016465336}
   - component: {fileID: 7800405500110192580}
+  - component: {fileID: 8103497117410542006}
   m_Layer: 0
   m_Name: Doe
   m_TagString: Untagged
@@ -437,6 +438,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba9343ab070034fa910fd1f211d6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 0
+  invertDirection: 0
+--- !u!114 &8103497117410542006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723367653139780721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8d59801c64e0f42aaef3c52af7a67d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  totalTime: 300
 --- !u!1 &1207175921102175723
 GameObject:
   m_ObjectHideFlags: 0
