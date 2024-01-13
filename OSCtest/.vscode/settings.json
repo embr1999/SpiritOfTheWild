@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Unityproject_GruppeNr.9_Playstation input_Stand 14.06.sln"
+    "dotnet.defaultSolution": "OSCtest.sln"
 }
