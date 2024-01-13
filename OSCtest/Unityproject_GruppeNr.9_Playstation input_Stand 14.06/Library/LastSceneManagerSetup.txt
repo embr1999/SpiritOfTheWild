@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/PSController input set up for performance capture.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
