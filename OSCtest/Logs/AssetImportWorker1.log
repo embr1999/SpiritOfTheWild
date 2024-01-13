@@ -1,0 +1,1213 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'de' Physical Memory: 32655 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Johann/Desktop/OWL/SpiritOfTheWild/OSCtest/Unityproject_GruppeNr.9_Playstation input_Stand 14.06
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58285
+Successfully changed project path to: C:/Users/Johann/Desktop/OWL/SpiritOfTheWild/OSCtest/Unityproject_GruppeNr.9_Playstation input_Stand 14.06
+C:/Users/Johann/Desktop/OWL/SpiritOfTheWild/OSCtest/Unityproject_GruppeNr.9_Playstation input_Stand 14.06
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9696] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2556542029 [EditorId] 2556542029 [Version] 1048832 [Id] WindowsEditor(7,bcdesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9696] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2556542029 [EditorId] 2556542029 [Version] 1048832 [Id] WindowsEditor(7,bcdesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 15.45 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Johann/Desktop/OWL/SpiritOfTheWild/OSCtest/Unityproject_GruppeNr.9_Playstation input_Stand 14.06/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022143 seconds.
+- Loaded All Assemblies, in  0.480 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 771ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (221ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.720 seconds
+Refreshing native plugins compatible for Editor in 10.79 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (563ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 16.84 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3693 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (2.3 MB). Loaded Objects now: 4155.
+Memory consumption went from 176.0 MB to 173.6 MB.
+Total: 5.761600 ms (FindLiveObjects: 0.551100 ms CreateObjectMapping: 0.154700 ms MarkObjects: 4.126600 ms  DeleteObjects: 0.927600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 182201.075437 seconds.
+  path: Assets/360 VR Tour .unity
+  artifactKey: Guid(7a3de7681e2694683843c4dd3aee9bb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/360 VR Tour .unity using Guid(7a3de7681e2694683843c4dd3aee9bb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7d0480f2ad8b741f914446e82d5517d') in 0.079691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GoogleVR/Models/sphere_36x18.fbx
+  artifactKey: Guid(4a941ed6f14aa451d94ed905031bbe00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Models/sphere_36x18.fbx using Guid(4a941ed6f14aa451d94ed905031bbe00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eda78e177974d3d068af22cf52c392ef') in 0.069870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GoogleVR/Materials/TooltipSimple.mat
+  artifactKey: Guid(ae4e711941ecc4590a09ae58653816ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Materials/TooltipSimple.mat using Guid(ae4e711941ecc4590a09ae58653816ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ff19f784f079cd0410cdc08258da8f3') in 0.024604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sendonoffgreen.cs
+  artifactKey: Guid(8395290ab112ceb4693611ef045de4af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sendonoffgreen.cs using Guid(8395290ab112ceb4693611ef045de4af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a45a4dfa133267d0f634fe89f1ef11b0') in 0.011229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Visual Effect On_Off.unity
+  artifactKey: Guid(d96acfb6bf701445b9b02e8019f8b78f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Visual Effect On_Off.unity using Guid(d96acfb6bf701445b9b02e8019f8b78f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e14aa0321fac596325043633da2fecb') in 0.010295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/VFXStart.cs
+  artifactKey: Guid(bbf95c03139474c69a452187ed849ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/VFXStart.cs using Guid(bbf95c03139474c69a452187ed849ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ff5988e06d86ad7a948533e1b23591e') in 0.012040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/panoramic-beach.mat
+  artifactKey: Guid(7d3903b36df8449318052e19d1eb4746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/panoramic-beach.mat using Guid(7d3903b36df8449318052e19d1eb4746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a52d7753343c25adcf0fd49614eb0ee') in 0.045245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Insideout.mat
+  artifactKey: Guid(6318982f4e9d14ecf8bf69ddd13a4547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Insideout.mat using Guid(6318982f4e9d14ecf8bf69ddd13a4547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '430d65bbc50f3480ce77ee4775ba80b2') in 0.012714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objectredrotation.cs
+  artifactKey: Guid(bc349f26bd7093245a57d2f3e42fba2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Objectredrotation.cs using Guid(bc349f26bd7093245a57d2f3e42fba2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '586b7b6da3efbb50517da720c5d38ee9') in 0.011093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GoogleVR/Scripts/GvrEditorEmulator.cs
+  artifactKey: Guid(41679d3338266415f88d226e6bf3d0be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/GvrEditorEmulator.cs using Guid(41679d3338266415f88d226e6bf3d0be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c76cbb12d4d4494e9ee3a2d145d0251') in 0.010668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sendonoffyellow.cs
+  artifactKey: Guid(7f094ab5838123d46ad2bf12dbe3830b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sendonoffyellow.cs using Guid(7f094ab5838123d46ad2bf12dbe3830b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c454783fba3d0e255d914d783db165b1') in 0.011041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Textures/tschernobyl-360-grad-schule.jpg
+  artifactKey: Guid(d25bddb7eb0c44feca59dec0db084e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/tschernobyl-360-grad-schule.jpg using Guid(d25bddb7eb0c44feca59dec0db084e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '602b051d76e64893561c2f05ce37cb5a') in 0.059655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/New VFX/CC Reflection.asset
+  artifactKey: Guid(0c3ede53eff044568ac93857906b7793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New VFX/CC Reflection.asset using Guid(0c3ede53eff044568ac93857906b7793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd30170c86029e1fddf246afd586348f2') in 0.032822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/DragObject.cs
+  artifactKey: Guid(fbe18e1678463444aac3df7d3ac1a4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/DragObject.cs using Guid(fbe18e1678463444aac3df7d3ac1a4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69d0d83393f726200926111ebfde25d5') in 0.011186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GoogleVR/GVRVideoPlayer.unitypackage
+  artifactKey: Guid(256bb8903e0e64d7d9649768b21aa12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/GVRVideoPlayer.unitypackage using Guid(256bb8903e0e64d7d9649768b21aa12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '686b07d23979c60278527a9418044b24') in 0.010812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PSController input set up for performance capture.unity
+  artifactKey: Guid(9d664f344fc7a436ca14d347558dab2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PSController input set up for performance capture.unity using Guid(9d664f344fc7a436ca14d347558dab2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '224b0344baebbdb802f2f3744ed024ec') in 0.013243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GoogleVR/README
+  artifactKey: Guid(de961e46abe24453a81bf1c8576885b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/README using Guid(de961e46abe24453a81bf1c8576885b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b12f512ffd6ef77f1165b318ad81633') in 0.010808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GoogleVR/Shaders/GvrController.shader
+  artifactKey: Guid(fdbce15836bf64163856f689fdd67b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Shaders/GvrController.shader using Guid(fdbce15836bf64163856f689fdd67b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '509a8a9b7d79c655de716d7d31ffc208') in 0.017988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/OSC/OSC.cs
+  artifactKey: Guid(a065e273f9c6cb7478c7460c21ef0f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/OSC/OSC.cs using Guid(a065e273f9c6cb7478c7460c21ef0f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '012e35b960f8183640fed7caaace3918') in 0.011202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GoogleVR/Editor/GvrEditorMenu.cs
+  artifactKey: Guid(5eb60798954e54a7280c0cd353773edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Editor/GvrEditorMenu.cs using Guid(5eb60798954e54a7280c0cd353773edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0139c5e35e4796d15777a971280c01ad') in 0.011550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GoogleVR/Editor/GvrHeadsetEditor.cs
+  artifactKey: Guid(a2377449ab35649b58bcd7315f345e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Editor/GvrHeadsetEditor.cs using Guid(a2377449ab35649b58bcd7315f345e88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8306d116cf120ac2d077648bbaf5fe86') in 0.011987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GoogleVR/Textures/cursor_grab.png
+  artifactKey: Guid(72867935ab9d7264ba8abb14b1f860b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Textures/cursor_grab.png using Guid(72867935ab9d7264ba8abb14b1f860b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e964b7a5e17d64f4b6d253658bf5d76') in 0.040249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GoogleVR/Plugins/Android/gvr-keyboardsupport-release.aar
+  artifactKey: Guid(abfc5232453744fb49d723562dace4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Plugins/Android/gvr-keyboardsupport-release.aar using Guid(abfc5232453744fb49d723562dace4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37701e7fe1293eed83a160c729f2babd') in 0.018406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader
+  artifactKey: Guid(adb9b18ac2466473a850d8acd17654a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Shaders/GvrUnlitTextureOverlay.shader using Guid(adb9b18ac2466473a850d8acd17654a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '233ad48101be77b2208c91861f5067cf') in 0.012766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/GoogleVR/Beta/Scripts/GvrBetaSettings.cs
+  artifactKey: Guid(e9e12e6f5292849138d69ae9652ec4c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Beta/Scripts/GvrBetaSettings.cs using Guid(e9e12e6f5292849138d69ae9652ec4c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6dbc354e390cfb0e5bb746aed4651c7') in 0.014250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GoogleVR/Demos/Prefabs/DemoInputManager.prefab
+  artifactKey: Guid(8524bbe5e592a42dc9251484a73c9c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Prefabs/DemoInputManager.prefab using Guid(8524bbe5e592a42dc9251484a73c9c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd281bd6ea01c7ac6fc1c54808b499c40') in 0.049091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs
+  artifactKey: Guid(509a29025635b4c31bb337addea72a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs using Guid(509a29025635b4c31bb337addea72a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '590707997449fe74c97bfa12660f6085') in 0.012699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GoogleVR/Beta/Scripts/GvrBetaControllerState.cs
+  artifactKey: Guid(63dd62cc4cd464485a1cb34634b6380e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Beta/Scripts/GvrBetaControllerState.cs using Guid(63dd62cc4cd464485a1cb34634b6380e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de4296b6d956ffa7f1b7214381bee367') in 0.012266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Plugins/Android/gvr.aar
+  artifactKey: Guid(bea8d7578c4bd412b85536ce494761c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Plugins/Android/gvr.aar using Guid(bea8d7578c4bd412b85536ce494761c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a71219da0f86d6f8512cfdfa2948a19') in 0.013409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New VFX/Trigger/Trigger 3.vfx
+  artifactKey: Guid(08f20ac7a0e3042b8841ebbcf314fddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New VFX/Trigger/Trigger 3.vfx using Guid(08f20ac7a0e3042b8841ebbcf314fddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31c6b568a7c2abb49dd77ed7b84f60e1') in 0.014652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/DemoInfoPanel.cs
+  artifactKey: Guid(5d21c263a13154ba69048ad7e9f4a275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scripts/DemoInfoPanel.cs using Guid(5d21c263a13154ba69048ad7e9f4a275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd486255919424e6a8129ca3ae3c692d8') in 0.021152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GoogleVR/Demos/Scenes/VideoDemo.unity
+  artifactKey: Guid(c79d901ffb34f428eadaa3a7269a6c7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scenes/VideoDemo.unity using Guid(c79d901ffb34f428eadaa3a7269a6c7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4dfd9a70706e0c28fddfda5864c2e61') in 0.013229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/DemoSceneManager.cs
+  artifactKey: Guid(1bec9ea3efe7849ffae666549aca3cad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scripts/DemoSceneManager.cs using Guid(1bec9ea3efe7849ffae666549aca3cad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fdcbca77ffa6c4bd610f1fbe3deca99') in 0.013718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Shaders/GvrUIOverlay.shader
+  artifactKey: Guid(36d276bd7b313441fbe34aadce7598ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Shaders/GvrUIOverlay.shader using Guid(36d276bd7b313441fbe34aadce7598ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82da563423775989f25af1712e17ac38') in 0.014701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/New VFX/General Effects/Swarm 2.vfx
+  artifactKey: Guid(4dada676ba6544a03a58c190420ae9e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New VFX/General Effects/Swarm 2.vfx using Guid(4dada676ba6544a03a58c190420ae9e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0299e3103daac4852385084786032c3c') in 0.016422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Demos/Scenes/PermissionsDemo.unity
+  artifactKey: Guid(5d5572a3735414cc9ad53b169fe2c7e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scenes/PermissionsDemo.unity using Guid(5d5572a3735414cc9ad53b169fe2c7e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63fe92d56b2802cf4e40df981463c712') in 0.013122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/New VFX/General Effects/Swarm 3.vfx
+  artifactKey: Guid(11bf3140dcc634863bd59a2394551eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New VFX/General Effects/Swarm 3.vfx using Guid(11bf3140dcc634863bd59a2394551eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c15d0f7c4c56314a92456fc5e2205bf8') in 0.014619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GoogleVR/Beta/Materials/GvrSeeThroughUI.mat
+  artifactKey: Guid(2b23799dd344d4aae9628aed7b02e3c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Beta/Materials/GvrSeeThroughUI.mat using Guid(2b23799dd344d4aae9628aed7b02e3c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0535e2ffe826bad472f84f7c86c50bb') in 0.013322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GoogleVR/Demos/Images/HelloVR_AppTile_bg.png
+  artifactKey: Guid(288db1a85cba3455c9a11b25773781e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Images/HelloVR_AppTile_bg.png using Guid(288db1a85cba3455c9a11b25773781e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fada7a4e8d706e4ce60eb67d4df074d') in 0.038536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GoogleVR/Textures/ddcontroller.png
+  artifactKey: Guid(16bedee72525148848c1c905828661fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Textures/ddcontroller.png using Guid(16bedee72525148848c1c905828661fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41b2fe77c7054eff8f865f6a71a0f20f') in 0.036019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GoogleVR/Beta/Shaders/GvrSeeThroughUI.shader
+  artifactKey: Guid(443ac8a88999d4e3b867c0a24f2674eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Beta/Shaders/GvrSeeThroughUI.shader using Guid(443ac8a88999d4e3b867c0a24f2674eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6ea33d77b6321443fd82ff4f4ee77ec') in 0.015961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GoogleVR/Models/ddtooltips.fbx
+  artifactKey: Guid(65a5650feae944b8db4f666fa2354de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Models/ddtooltips.fbx using Guid(65a5650feae944b8db4f666fa2354de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b2414c44f8affaadef0f5b535ae1f6e') in 0.025704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GoogleVR/Models/hemisphere_18x18.fbx
+  artifactKey: Guid(4bf0b5e6d505046d0ae41ea25c46a897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Models/hemisphere_18x18.fbx using Guid(4bf0b5e6d505046d0ae41ea25c46a897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3144abe458ddbc7e33e829334dcd72e') in 0.021969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Spheres/Sphere 4.prefab
+  artifactKey: Guid(7ef3ad8eee3e246f5a84d8aa7ad3cc64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spheres/Sphere 4.prefab using Guid(7ef3ad8eee3e246f5a84d8aa7ad3cc64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86feab256a2c74156d2d69ad989ab692') in 0.017027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs
+  artifactKey: Guid(a89c2f792b6ed4b3c8e3d82ed9b3c4cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs using Guid(a89c2f792b6ed4b3c8e3d82ed9b3c4cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e4d90610561cfd8ab5ba9cdb845e140') in 0.009837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GoogleVR/Demos/Materials/HelloVR/QuadSpherePink.mat
+  artifactKey: Guid(c5f8095b20dc2423cad63ce7379784d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Materials/HelloVR/QuadSpherePink.mat using Guid(c5f8095b20dc2423cad63ce7379784d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ae4446c18535ee5be77a92a3f8c318b') in 0.013627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Demos/Materials/HelloVR/IcosahedronBlue.mat
+  artifactKey: Guid(daad62324deb0cf448e5c805c8459bff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Materials/HelloVR/IcosahedronBlue.mat using Guid(daad62324deb0cf448e5c805c8459bff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd94a109b174fe7de8f067ed9b308a80b') in 0.012205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs
+  artifactKey: Guid(2a4fdc21aee934d82baa564e797da921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs using Guid(2a4fdc21aee934d82baa564e797da921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b8cb45f80739f458c9c4249527a80e1') in 0.012560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Plugins/x86_64/instant_preview_shared.dll
+  artifactKey: Guid(249b97667d64740af9354546d1ff65b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Plugins/x86_64/instant_preview_shared.dll using Guid(249b97667d64740af9354546d1ff65b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41d8bbf51c55033c841aefdf8ff73868') in 0.012172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader
+  artifactKey: Guid(4b50a67a5a86e4093bf89c85cbc2c700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Shaders/Video/VideoUnlitShader.shader using Guid(4b50a67a5a86e4093bf89c85cbc2c700) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53c78032823b86ba177414606523c2d2') in 0.014049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs
+  artifactKey: Guid(573e2b04dc4734d68a2b6747421ce0bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs using Guid(573e2b04dc4734d68a2b6747421ce0bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0240fef1f05360a0bdad4ae3e3beeb7e') in 0.010697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/GvrXREventsSubscriber.cs
+  artifactKey: Guid(12a8088f6fe474f31bffbd957940f5fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/GvrXREventsSubscriber.cs using Guid(12a8088f6fe474f31bffbd957940f5fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4b7c3dfddbf6f4654971eff0b816b32') in 0.011210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs
+  artifactKey: Guid(e7dcc90c2e60c4011896c7f21fc1f557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs using Guid(e7dcc90c2e60c4011896c7f21fc1f557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f6d5cb7a18adbeffa1b4da2ba9f9eb9') in 0.015683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/GvrPointerEventData.cs
+  artifactKey: Guid(cd2cb616496014a37b6820203c567a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/GvrPointerEventData.cs using Guid(cd2cb616496014a37b6820203c567a77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ffc706bdcd5afdcf02633c2f264bd2d') in 0.010887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/GvrPointerEventDataExtension.cs
+  artifactKey: Guid(9387b16b3e4094244adb0bf7dc9ca17a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/GvrPointerEventDataExtension.cs using Guid(9387b16b3e4094244adb0bf7dc9ca17a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '926cec57f8ac21aa0a9d7da8ed318316') in 0.012152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GoogleVR/Beta/Scripts/Internal/GvrBetaSettingsProvider.cs
+  artifactKey: Guid(92fe087984da347418a1018b22a805f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Beta/Scripts/Internal/GvrBetaSettingsProvider.cs using Guid(92fe087984da347418a1018b22a805f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ccde0e432d5fb27fd018e6b1ba90e31') in 0.010999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Demos/Materials/HelloVR/TriSpherePink.mat
+  artifactKey: Guid(c63bdfc3c6f1447c8bcb58360dd31d6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Materials/HelloVR/TriSpherePink.mat using Guid(c63bdfc3c6f1447c8bcb58360dd31d6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e13c742be6a89054c8def4f11102905') in 0.011063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GoogleVR/Plugins/x86/instant_preview_unity_plugin.dll
+  artifactKey: Guid(28d5dac5d3722404cbb8900e0cd82eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Plugins/x86/instant_preview_unity_plugin.dll using Guid(28d5dac5d3722404cbb8900e0cd82eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1a008691f210c9741076567d4395a13') in 0.011894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs
+  artifactKey: Guid(b5cd7f7fcfc8a4c1fbc201ccc579556d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs using Guid(b5cd7f7fcfc8a4c1fbc201ccc579556d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee8965de0e830c484dff084fa3f113ca') in 0.010115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs
+  artifactKey: Guid(410d5a91205334dda9fd1bf3d325809a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs using Guid(410d5a91205334dda9fd1bf3d325809a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b767b845008cb9ca8cad84e96a0132d6') in 0.011716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs
+  artifactKey: Guid(41251d5f89d5546bb9d8ba907686b71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs using Guid(41251d5f89d5546bb9d8ba907686b71f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64db9ecbeb0829749b9a164bfa679b94') in 0.011414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GoogleVR/Demos/Prefabs/VideoDemo/VideoControls.prefab
+  artifactKey: Guid(1a62dfff2c15946c6a3caf52aef4bcf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Prefabs/VideoDemo/VideoControls.prefab using Guid(1a62dfff2c15946c6a3caf52aef4bcf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aac2f3bbd5bc303c3f6534e01901d3d1') in 0.023078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 154
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/IGvrPointerHoverHandler.cs
+  artifactKey: Guid(e7441953e05443d4fa517d1ce7382b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/IGvrPointerHoverHandler.cs using Guid(e7441953e05443d4fa517d1ce7382b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2f0d0e960f687e4c31c47187ec0d742') in 0.011376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Demos/Environment/Materials/CubeRoomEnvMat.mat
+  artifactKey: Guid(7ac05d4c78dbc4bd792428649b027747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Environment/Materials/CubeRoomEnvMat.mat using Guid(7ac05d4c78dbc4bd792428649b027747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6fb25c6509d23c7b96d7f97df4f7a30') in 0.014547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GoogleVR/Plugins/x86_64/ssleay32.dll
+  artifactKey: Guid(43017829bfcfd4575b426022d3cdd3f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Plugins/x86_64/ssleay32.dll using Guid(43017829bfcfd4575b426022d3cdd3f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f43941cca656a3fbb66b2c46d0557cd') in 0.012926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab
+  artifactKey: Guid(463285ecd6702471a909ba810832bf0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Prefabs/EventSystem/GvrEventSystem.prefab using Guid(463285ecd6702471a909ba810832bf0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd01aff741b90268a859458be91b2f292') in 0.014684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs
+  artifactKey: Guid(c4d57836d4e064f449f3e2f03330e9ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs using Guid(c4d57836d4e064f449f3e2f03330e9ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fae0823e8e61374199eca2646a9a912e') in 0.011497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs
+  artifactKey: Guid(311793381eb9d45149dc1a422000a9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs using Guid(311793381eb9d45149dc1a422000a9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aad6f58d1a14d193fbd94796eee44ce2') in 0.010882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs
+  artifactKey: Guid(2e71f5afb881f443bbce909fe451d8fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs using Guid(2e71f5afb881f443bbce909fe451d8fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d085bf1444fb39c3dcbe36326b740be') in 0.012642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs
+  artifactKey: Guid(41c83891d500f43ca90ce70315712c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs using Guid(41c83891d500f43ca90ce70315712c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '730c7c0ae5e17c42b374d7028d42136f') in 0.010882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Objectyellow.cs
+  artifactKey: Guid(cfb005f2b9ebb994499f822a69cc752d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Objectyellow.cs using Guid(cfb005f2b9ebb994499f822a69cc752d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1879d5005ae348359b716c40124cb1d0') in 0.011266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.122820 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs
+  artifactKey: Guid(70f36fab7a81646eeb5c083264db5be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs using Guid(70f36fab7a81646eeb5c083264db5be0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '150300636f492e2375b8caee70b71ee0') in 0.012251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GoogleVR/Scripts/Headset/Enums/GvrRecenterFlags.cs
+  artifactKey: Guid(32b6801e15389450c8d629370a9fff54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Headset/Enums/GvrRecenterFlags.cs using Guid(32b6801e15389450c8d629370a9fff54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebebfe9d73a6e162d36550b93b366d14') in 0.011538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents/Vector2Event.cs
+  artifactKey: Guid(60f1e4636c2474e55a25e6d4ff372ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents/Vector2Event.cs using Guid(60f1e4636c2474e55a25e6d4ff372ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9f759aa1d199e3247cc25653fea607b') in 0.010757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/Subgraphs/Pixel Depth.shadersubgraph
+  artifactKey: Guid(a4fd51fa728c5ac4692b174c7430f87b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/Subgraphs/Pixel Depth.shadersubgraph using Guid(a4fd51fa728c5ac4692b174c7430f87b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec30883a017e4a9693799d41c9386b91') in 0.019468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs
+  artifactKey: Guid(0ca644865f5f4479fb50471605078cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs using Guid(0ca644865f5f4479fb50471605078cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5580bd24f323597170a2a52f56cd245a') in 0.010340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GoogleVR/Demos/Textures/HelloVR/QuadSphere_Blue_BakedDiffuse.png
+  artifactKey: Guid(4d7eb7cd5562b4ed4ae74151e7f631c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Textures/HelloVR/QuadSphere_Blue_BakedDiffuse.png using Guid(4d7eb7cd5562b4ed4ae74151e7f631c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61ce6461e2116184d3103725819bf56e') in 0.032985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/VFX/Smoke.vfx
+  artifactKey: Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/VFX/Smoke.vfx using Guid(80b43ce65143a8240bcdc7cc368e7261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de8a8e539af03d0af0c39f66bf1695a9') in 0.013944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Prefabs/Lightning.prefab
+  artifactKey: Guid(ed06378267a080f4c83e1c3ec7e39694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Prefabs/Lightning.prefab using Guid(ed06378267a080f4c83e1c3ec7e39694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f1a4ffed3c87c24ae831f0e1072bbd8') in 0.020033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_1.wav
+  artifactKey: Guid(f7491bc024d4e4f1f9a6dd7f09558029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Sounds/HelloVR/HelloVR_Tone_1.wav using Guid(f7491bc024d4e4f1f9a6dd7f09558029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c0c687425aa19f75f52d72c582bb03d') in 0.048469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab
+  artifactKey: Guid(6e5b693d0947f4a8b85a00d3965ba64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Prefabs/Controller/Tooltips/GvrControllerTooltipsSimple.prefab using Guid(6e5b693d0947f4a8b85a00d3965ba64c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b6111c11f0f993dd08c2edfd493ec89') in 0.014184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/Subgraphs/FlowMap-ComputeUV.shadersubgraph
+  artifactKey: Guid(b1858d7f2791c414298ed47e2e3f717e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/Subgraphs/FlowMap-ComputeUV.shadersubgraph using Guid(b1858d7f2791c414298ed47e2e3f717e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aef22ecd24a5661d67d1060cfe7a5a6a') in 0.015905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs
+  artifactKey: Guid(118ed627eb676472d803284d1a988bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs using Guid(118ed627eb676472d803284d1a988bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdc97b0db38ac85513e76f2f1d61d63e') in 0.011529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs
+  artifactKey: Guid(1f16e78d5a8cbe946b9dbaad22815581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs using Guid(1f16e78d5a8cbe946b9dbaad22815581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a91e99533addcb0551c0c22b001f8115') in 0.011916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs
+  artifactKey: Guid(9159532a8a3d946aa9df74e771243e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs using Guid(9159532a8a3d946aa9df74e771243e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b63b797040fa18c5f4fb07e72587e19') in 0.012963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs
+  artifactKey: Guid(0f791be37caef48c79f72011276ab16a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs using Guid(0f791be37caef48c79f72011276ab16a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99d440a610ee26c60863899ff1551b73') in 0.010449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs
+  artifactKey: Guid(d2e5fe232b3b94de2a12eb364ebc371e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs using Guid(d2e5fe232b3b94de2a12eb364ebc371e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f718c1e6ff9d8f2559ad963a12d19b2') in 0.011266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GoogleVR/Demos/Textures/HelloVR/SafetyRing_Alpha.png
+  artifactKey: Guid(7142fd4da3acd494cbabed95d75673b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Textures/HelloVR/SafetyRing_Alpha.png using Guid(7142fd4da3acd494cbabed95d75673b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b2232c80da5764bbfe508abcde68ab8') in 0.036106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/ParticleOutput/FlipbookBlend.shadergraph
+  artifactKey: Guid(ec567c823572caa4cb1cab30db0de9c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/ParticleOutput/FlipbookBlend.shadergraph using Guid(ec567c823572caa4cb1cab30db0de9c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96b13836ae8f2d63439bd09609d0766a') in 0.016442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs
+  artifactKey: Guid(8a93ebe04d36b49c388adce4ac442226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs using Guid(8a93ebe04d36b49c388adce4ac442226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31096cc3ab143fecaa3d331ef7442aac') in 0.010580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents/BoolEvent.cs
+  artifactKey: Guid(25d360aef03fb4c7ba94b2ee40251a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents/BoolEvent.cs using Guid(25d360aef03fb4c7ba94b2ee40251a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37bda07f4b73ec3b12255079f152e984') in 0.011196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/VFX/Sparks.vfx
+  artifactKey: Guid(1194657162895cf41a278fe3576dbb4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/VFX/Sparks.vfx using Guid(1194657162895cf41a278fe3576dbb4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cd66b743b6397ea6f76165f86d27341') in 0.012491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/Subgraphs/Sample Flipbook.shadersubgraph
+  artifactKey: Guid(3dfb0d3601745784da8bb664d435f2e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Shaders/Subgraphs/Sample Flipbook.shadersubgraph using Guid(3dfb0d3601745784da8bb664d435f2e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6762b9fe8e600cca25765f6783b21962') in 0.012740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs
+  artifactKey: Guid(f73feeef531a54f2a8cf5b05a8c06e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs using Guid(f73feeef531a54f2a8cf5b05a8c06e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff12860b9196fa1f878c4952353161ee') in 0.012400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.090818 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Clamp (AABox).vfxoperator
+  artifactKey: Guid(b43aad954f7a81349beb8b7e47e600d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Clamp (AABox).vfxoperator using Guid(b43aad954f7a81349beb8b7e47e600d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '877d6e433a6c68c019d901ec77a1a3fc') in 0.011102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Get Fade Attribute.vfxoperator
+  artifactKey: Guid(11e95a3194a8c1e408fc89223379fadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Get Fade Attribute.vfxoperator using Guid(11e95a3194a8c1e408fc89223379fadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd45ba8a54093c840b6deda7210d93db7') in 0.010261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Generic/RidgedPerlin.png
+  artifactKey: Guid(add5ec9aff91ed24b84ff0bc16e16f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Generic/RidgedPerlin.png using Guid(add5ec9aff91ed24b84ff0bc16e16f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30a3bb5901994ca39c541b4527c99b0c') in 0.035962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Smoke/Cloud04_8x8.png
+  artifactKey: Guid(e29b0daad50a4e64cb6cc2ed1b2f3f31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Smoke/Cloud04_8x8.png using Guid(e29b0daad50a4e64cb6cc2ed1b2f3f31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39904848485886f8374f8988aa6b95b1') in 0.032804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Circ.vfxoperator
+  artifactKey: Guid(665ec42e83f00a14f951500a8b26e8a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Circ.vfxoperator using Guid(665ec42e83f00a14f951500a8b26e8a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '539b0f09be707445a5660c801bc306f0') in 0.011641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Bounce.vfxoperator
+  artifactKey: Guid(5e5ed6b10649e5e47814c6419aac9f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Bounce.vfxoperator using Guid(5e5ed6b10649e5e47814c6419aac9f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a27a23e4326b02ca8e15cf05197a111') in 0.010761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Quart.vfxoperator
+  artifactKey: Guid(1a77fdbe80e26b642ab53ddf7ec48305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Quart.vfxoperator using Guid(1a77fdbe80e26b642ab53ddf7ec48305) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8da0bbba6016be32c3ce8437be9c8e62') in 0.012324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Fire/Flame02-temperature_16x4_ldr.png
+  artifactKey: Guid(e0ca918fd925bf24d9bf86b197843bf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Fire/Flame02-temperature_16x4_ldr.png using Guid(e0ca918fd925bf24d9bf86b197843bf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b4a8c86980b0decb3855e4b7bde74e1') in 0.040141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Encompass (AABox).vfxoperator
+  artifactKey: Guid(da8b849d10ef8de45be66285bd64d9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Encompass (AABox).vfxoperator using Guid(da8b849d10ef8de45be66285bd64d9a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8f16e237a83b3e36f16852ec4a332bb') in 0.008993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Get Color and Alpha (Current).vfxoperator
+  artifactKey: Guid(e1e88e70bd346a545a876003a5d7f463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Get Color and Alpha (Current).vfxoperator using Guid(e1e88e70bd346a545a876003a5d7f463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0b32c2fb2bde7c65a91e79207b3a1b6') in 0.010101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Get Color and Alpha (Source).vfxoperator
+  artifactKey: Guid(59972625c9d3b4340a379c5802d4045d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Get Color and Alpha (Source).vfxoperator using Guid(59972625c9d3b4340a379c5802d4045d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b477fb459c436ef6680597d94fd51266') in 0.009863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Elastic.vfxoperator
+  artifactKey: Guid(9da75de35c7d0fa44b64c83f0b1c0266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease In Elastic.vfxoperator using Guid(9da75de35c7d0fa44b64c83f0b1c0266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7936a1a843e67ace6b011774891edde4') in 0.012405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Smoke/WispySmoke02_8x8.png
+  artifactKey: Guid(042469ed68d6ace4d9dc397d8ffe3040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Smoke/WispySmoke02_8x8.png using Guid(042469ed68d6ace4d9dc397d8ffe3040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfc155692d1a26aef4863bc23233bacf') in 0.033040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Encompass (Oriented Box).vfxoperator
+  artifactKey: Guid(420b8ef3d4ca65f4c8d1b3650b6909b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Encompass (Oriented Box).vfxoperator using Guid(420b8ef3d4ca65f4c8d1b3650b6909b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8234cef5c7db7d33cc0d121d610510c2') in 0.014230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease InOut Bounce.vfxoperator
+  artifactKey: Guid(7db8e78fd996d0c48869a6c75dfb1237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Subgraphs/Operators/Tween/Tween Ease InOut Bounce.vfxoperator using Guid(7db8e78fd996d0c48869a6c75dfb1237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58fe9d152b7ae22c8b061925b4a4d8e2') in 0.010711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Smoke/CandleSmoke01_20x4.png
+  artifactKey: Guid(0844dee3e2c25884c87e43436230eaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Smoke/CandleSmoke01_20x4.png using Guid(0844dee3e2c25884c87e43436230eaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b8ab31ee93c30b22420cfa880ca0bb2') in 0.038162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Explosion/Explosion02_5x5.png
+  artifactKey: Guid(1dcf542f098cc22429c4af88a4548f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Explosion/Explosion02_5x5.png using Guid(1dcf542f098cc22429c4af88a4548f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8311409a665393ca85207658ccc44d2d') in 0.034502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Fire/Flame03-hollow-temperature_16x4.png
+  artifactKey: Guid(67cf8e806d5d59147aeba2c2a24251f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Visual Effect Graph/7.3.1/VisualEffectGraph Additions/Textures/Fire/Flame03-hollow-temperature_16x4.png using Guid(67cf8e806d5d59147aeba2c2a24251f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ec8dc3979f12556f64686f4706b81ce') in 0.034157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.00 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (2.3 MB). Loaded Objects now: 4160.
+Memory consumption went from 108.3 MB to 106.0 MB.
+Total: 3.676400 ms (FindLiveObjects: 0.325000 ms CreateObjectMapping: 0.091600 ms MarkObjects: 2.785700 ms  DeleteObjects: 0.473500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
