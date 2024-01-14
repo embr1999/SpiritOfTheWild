@@ -42,7 +42,7 @@ public class SFXAudioTimer : MonoBehaviour
         UpdateBasicAudio();
 
         //randomize new audio file
-        int f = Random.Range(audioFiles.Count, 1);
+        int f = (int)Random.Range(0, audioFiles.Count-1);
         //print(f);
 
         //check if clip is currently running, if not then randomize audio file and play
