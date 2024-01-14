@@ -35,7 +35,7 @@ public class LightCycle : MonoBehaviour
         float interpolatedValue = Mathf.Lerp(startValue, targetValue, currentTime / totalTime);
 
         // Do something with the interpolated value (e.g., assign it to a variable or update a property)
-        Debug.Log("Interpolated Value: " + interpolatedValue);
+        //Debug.Log("Interpolated Value: " + interpolatedValue);
 
         var rotationAxis = lightObject.transform.rotation;
         lightObject.transform.rotation = Quaternion.Euler(interpolatedValue,0f,0f);
@@ -45,7 +45,7 @@ public class LightCycle : MonoBehaviour
         if (currentTime >= totalTime)
         {
             // Interpolation is complete, you can perform additional actions here
-            Debug.Log("Interpolation complete!");
+            //Debug.Log("Interpolation complete!");
         }
     }
 }

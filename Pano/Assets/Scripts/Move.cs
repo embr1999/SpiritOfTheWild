@@ -31,7 +31,7 @@ public class Move : MonoBehaviour
         if (currentTime >= totalTime)
         {
             // Movement is complete, you can perform additional actions here
-            Debug.Log("Movement complete!");
+            //Debug.Log("Movement complete!");
 
             // Optionally, you can reset the timer or stop the movement
             // currentTime = 0f; // Uncomment this line to reset the timer

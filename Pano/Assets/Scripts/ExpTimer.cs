@@ -40,6 +40,6 @@ private float currentTime;
         }
 
         // Display the timer value if needed
-        Debug.Log("Time remaining: " + Mathf.CeilToInt(currentTime));
+        //Debug.Log("Time remaining: " + Mathf.CeilToInt(currentTime));
     }
 }

@@ -15,7 +15,7 @@ G:/Git/SpiritOfTheWild/Pano
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57756
+60018
 Successfully changed project path to: G:/Git/SpiritOfTheWild/Pano
 G:/Git/SpiritOfTheWild/Pano
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ G:/Git/SpiritOfTheWild/Pano
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12068] Host "[IP] 192.168.100.23 [Port] 0 [Flags] 2 [Guid] 4223728653 [EditorId] 4223728653 [Version] 1048832 [Id] WindowsEditor(7,Arthena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26200] Host "[IP] 192.168.100.23 [Port] 0 [Flags] 2 [Guid] 1163637400 [EditorId] 1163637400 [Version] 1048832 [Id] WindowsEditor(7,Arthena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12068] Host "[IP] 192.168.100.23 [Port] 0 [Flags] 2 [Guid] 4223728653 [EditorId] 4223728653 [Version] 1048832 [Id] WindowsEditor(7,Arthena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26200] Host "[IP] 192.168.100.23 [Port] 0 [Flags] 2 [Guid] 1163637400 [EditorId] 1163637400 [Version] 1048832 [Id] WindowsEditor(7,Arthena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 1270.39 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 7.35 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path G:/Unity Engine/UnityEditors/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'G:/Unity Engine/UnityEditors/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Unity Engine/UnityEditors/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Unity Engine/UnityEditors/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Unity Engine/UnityEditors/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: G:/Unity Engine/UnityEditors/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003035 seconds.
-- Loaded All Assemblies, in  1.066 seconds
+Registered in 0.003553 seconds.
+- Loaded All Assemblies, in  0.401 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 593 ms
+Android Extension - Scanning For ADB Devices 254 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.975 seconds
-Domain Reload Profiling: 2041ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (221ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (639ms)
-		LoadAssemblies (144ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (636ms)
-			TypeCache.Refresh (635ms)
-				TypeCache.ScanAssembly (371ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (161ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (976ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (573ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (908ms)
+		SetupLoadedEditorAssemblies (517ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (730ms)
+			InitializePlatformSupportModulesInManaged (373ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (110ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 2041ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.263 seconds
-Refreshing native plugins compatible for Editor in 3.65 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -130,127 +130,54 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.605 seconds
-Domain Reload Profiling: 4868ms
-	BeginReloadAssembly (397ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (195ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (3768ms)
-		LoadAssemblies (3609ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (305ms)
-			TypeCache.Refresh (260ms)
-				TypeCache.ScanAssembly (240ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (605ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (419ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 6.33 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4038 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (1.9 MB). Loaded Objects now: 4625.
-Memory consumption went from 208.5 MB to 206.5 MB.
-Total: 6.737900 ms (FindLiveObjects: 0.719800 ms CreateObjectMapping: 0.624700 ms MarkObjects: 4.382900 ms  DeleteObjects: 1.008900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c50bf1a9926a4ee4a53c2b06b0be4a6d -> a6a3cca3e5f5345f9d73601f82068d29
-  custom:scripting/monoscript/fileName/ExpTimer.cs:  -> f45a7ee14f18007436ca919bd1237f7c
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.535 seconds
-Refreshing native plugins compatible for Editor in 4.12 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.867 seconds
-Domain Reload Profiling: 1402ms
-	BeginReloadAssembly (186ms)
+- Finished resetting the current domain, in  0.566 seconds
+Domain Reload Profiling: 1197ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (344ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (290ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (867ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (567ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (384ms)
+		SetupLoadedEditorAssemblies (380ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (275ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.44 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4628.
-Memory consumption went from 182.0 MB to 180.2 MB.
-Total: 5.003600 ms (FindLiveObjects: 0.507500 ms CreateObjectMapping: 0.630600 ms MarkObjects: 3.144700 ms  DeleteObjects: 0.719800 ms)
+Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (1.9 MB). Loaded Objects now: 4627.
+Memory consumption went from 208.6 MB to 206.7 MB.
+Total: 3.709100 ms (FindLiveObjects: 0.419500 ms CreateObjectMapping: 0.372100 ms MarkObjects: 2.392700 ms  DeleteObjects: 0.523700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -260,17 +187,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1723791.664527 seconds.
-  path: Assets/Scripts/ExpTimer.cs
-  artifactKey: Guid(0dd38b1812de3124e99e2944af496312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ExpTimer.cs using Guid(0dd38b1812de3124e99e2944af496312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df201f442bdff1bfbe2440e869a7343e') in 0.003302 seconds
+  Time since last request: 179387.031799 seconds.
+  path: Assets/Scripts/Demo_MoveInLine.cs
+  artifactKey: Guid(43ba9343ab070034fa910fd1f211d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Demo_MoveInLine.cs using Guid(43ba9343ab070034fa910fd1f211d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3744da6d597bb721bd6f9ab48a9ac4') in 0.001985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Outdated
+  artifactKey: Guid(b87be96268dc6d542a9d8804676ef60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Outdated using Guid(b87be96268dc6d542a9d8804676ef60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26af8718cdeb70a7ecce5e868a4b8618') in 0.000396 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.225 seconds
-Refreshing native plugins compatible for Editor in 6.53 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -280,1063 +215,46 @@ Native extension for Android target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.478 seconds
-Domain Reload Profiling: 2704ms
-	BeginReloadAssembly (647ms)
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (410ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (544ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (240ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (45ms)
-				TypeCache.ScanAssembly (11ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1479ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (810ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (704ms)
+		SetupLoadedEditorAssemblies (334ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (506ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.76 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4632.
-Memory consumption went from 184.0 MB to 182.1 MB.
-Total: 22.289500 ms (FindLiveObjects: 0.556100 ms CreateObjectMapping: 0.691800 ms MarkObjects: 19.611600 ms  DeleteObjects: 1.427200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 58.504481 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006092 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.076267 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001000 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.066408 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000842 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.151360 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000675 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.206161 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000982 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.104894 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001139 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.120594 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000916 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.132182 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001081 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.174901 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001109 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.104290 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001026 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.165455 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000784 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.189361 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001005 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.164927 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000874 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.102661 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001030 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.002594 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001411 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.142350 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001081 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.200708 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000778 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.033840 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001323 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.120674 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000973 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.110204 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001184 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.158384 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000881 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.119963 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001043 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.124374 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001154 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.212726 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000927 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.140844 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000969 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.009222 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000926 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.139034 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001648 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.178769 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000748 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.109985 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000987 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.156733 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001098 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.137387 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001310 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.190385 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001152 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.146071 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001297 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.124778 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001595 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.196230 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001232 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.133149 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000936 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003381 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000839 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.119209 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001057 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.012308 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001001 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.128044 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001028 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.120255 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001256 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.116729 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001179 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.084479 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000927 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.097912 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001258 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.084074 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001549 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.083949 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000977 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.072035 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001319 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.094866 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001089 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.126825 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001085 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.088405 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001197 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.097965 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000713 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.049404 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001026 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.065195 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001718 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.076978 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001378 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.081614 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001336 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.082109 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000757 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.072852 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001452 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.094231 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001094 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.079544 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001190 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.068504 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000792 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.072671 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000850 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.082081 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001003 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.071526 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000716 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.066154 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001214 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.058113 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000620 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.066996 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000811 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.067983 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000554 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.050631 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000844 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.055473 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000599 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.046528 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000823 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.056795 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000677 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.054850 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000853 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.058626 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000630 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.066049 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000674 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.060913 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000678 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.058835 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001355 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.062212 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000880 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.065080 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000787 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.053959 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000679 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-  ERROR: Build asset version error: assets/scripts/lightcycle.cs in SourceAssetDB has modification time of '2024-01-08T19:29:57.3598856Z' while content on disk has modification time of '2024-01-08T19:30:09.7617911Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.523 seconds
-Refreshing native plugins compatible for Editor in 3.93 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.905 seconds
-Domain Reload Profiling: 1427ms
-	BeginReloadAssembly (184ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (262ms)
-		LoadAssemblies (307ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (51ms)
-			TypeCache.Refresh (32ms)
-				TypeCache.ScanAssembly (8ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (906ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (426ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.64 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4635.
-Memory consumption went from 186.0 MB to 184.1 MB.
-Total: 4.163300 ms (FindLiveObjects: 0.567500 ms CreateObjectMapping: 0.489000 ms MarkObjects: 2.529000 ms  DeleteObjects: 0.576300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 163.177687 seconds.
-  path: Assets/Scripts/LightCycle.cs
-  artifactKey: Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LightCycle.cs using Guid(7404e2c92f3d0d844a992631f066c637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dccfd9abde9a551f1a8d9f005b19b49') in 0.019359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.564 seconds
-Refreshing native plugins compatible for Editor in 3.35 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
-Domain Reload Profiling: 1446ms
-	BeginReloadAssembly (196ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (353ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (35ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (6ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (884ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (422ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 5.31 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 3.27 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4638.
-Memory consumption went from 187.9 MB to 186.1 MB.
-Total: 7.570600 ms (FindLiveObjects: 0.621000 ms CreateObjectMapping: 0.609700 ms MarkObjects: 5.107200 ms  DeleteObjects: 1.230900 ms)
+Unloading 3921 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4630.
+Memory consumption went from 182.2 MB to 180.3 MB.
+Total: 3.195500 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.228700 ms MarkObjects: 2.206900 ms  DeleteObjects: 0.468900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1345,7 +263,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -1356,8 +273,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.545 seconds
-Refreshing native plugins compatible for Editor in 4.30 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -1367,46 +284,46 @@ Native extension for Android target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.807 seconds
-Domain Reload Profiling: 1351ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  1.088 seconds
+Domain Reload Profiling: 1747ms
+	BeginReloadAssembly (227ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (336ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (439ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (807ms)
+	FinalizeReload (1088ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (360ms)
+		SetupLoadedEditorAssemblies (506ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (260ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.36 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.12 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4641.
-Memory consumption went from 189.9 MB to 188.0 MB.
-Total: 3.750600 ms (FindLiveObjects: 0.407900 ms CreateObjectMapping: 0.351600 ms MarkObjects: 2.210600 ms  DeleteObjects: 0.779600 ms)
+Unloading 3922 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4634.
+Memory consumption went from 184.2 MB to 182.3 MB.
+Total: 4.349600 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.439300 ms MarkObjects: 2.702100 ms  DeleteObjects: 0.772800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1415,7 +332,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -1424,10 +340,18 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 37.223868 seconds.
+  path: Assets/Scripts/SFXAudioTimer.cs
+  artifactKey: Guid(53ce8c2058e9eb94d840d670b877d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SFXAudioTimer.cs using Guid(53ce8c2058e9eb94d840d670b877d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2629c49e6318ae9a4456a4f070957d') in 0.032336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.513 seconds
-Refreshing native plugins compatible for Editor in 3.76 ms, found 7 plugins.
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -1437,46 +361,46 @@ Native extension for Android target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.862 seconds
-Domain Reload Profiling: 1375ms
-	BeginReloadAssembly (182ms)
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1199ms
+	BeginReloadAssembly (161ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (264ms)
-		LoadAssemblies (331ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (261ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (863ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (762ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (372ms)
+		SetupLoadedEditorAssemblies (350ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.47 ms, found 7 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.31 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4644.
-Memory consumption went from 191.8 MB to 189.9 MB.
-Total: 3.805600 ms (FindLiveObjects: 0.411600 ms CreateObjectMapping: 0.304900 ms MarkObjects: 2.391500 ms  DeleteObjects: 0.696600 ms)
+Unloading 3922 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4637.
+Memory consumption went from 186.1 MB to 184.2 MB.
+Total: 3.869300 ms (FindLiveObjects: 0.389200 ms CreateObjectMapping: 0.314600 ms MarkObjects: 2.521900 ms  DeleteObjects: 0.642400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1485,7 +409,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -1494,72 +417,167 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.487 seconds
-Refreshing native plugins compatible for Editor in 3.62 ms, found 7 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.816 seconds
-Domain Reload Profiling: 1303ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (241ms)
-		LoadAssemblies (303ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (7ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (817ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (402ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.09 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3920 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (1.9 MB). Loaded Objects now: 4647.
-Memory consumption went from 193.7 MB to 191.8 MB.
-Total: 4.293000 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.297400 ms MarkObjects: 2.793900 ms  DeleteObjects: 0.764800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/SunMoonCycler.cs: 178ce00de4e98b0ae9330ee1e8ee4b3d -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 494.413887 seconds.
+  path: Assets/Assets Custom/SFX/cricket_02.wav
+  artifactKey: Guid(48d693dfdfd7d2f45a21857f43890c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/cricket_02.wav using Guid(48d693dfdfd7d2f45a21857f43890c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463f9ad4b307258a627559176abe60b0') in 0.100921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Custom/SFX/distant soldiers_01.wav
+  artifactKey: Guid(d211f55887207f44e804e9b8aa387a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/distant soldiers_01.wav using Guid(d211f55887207f44e804e9b8aa387a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85602a95e134943ea1cbacb2864e51ee') in 0.008496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets Custom/SFX/distant soldiers_03.wav
+  artifactKey: Guid(44fc89ad407d0cc448c14dc8864f49d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/distant soldiers_03.wav using Guid(44fc89ad407d0cc448c14dc8864f49d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46eba4026cfb93700fd2bc0c5bcf2cdc') in 0.009331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Assets Custom/SFX/Fox sniffing 2_01.wav
+  artifactKey: Guid(ccda11574c643f64dac3494f933cf7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Fox sniffing 2_01.wav using Guid(ccda11574c643f64dac3494f933cf7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78ab2f89f6343c5187a61ddebbb817c') in 0.009161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets Custom/SFX/military vehicle 1_01.wav
+  artifactKey: Guid(60433de4b0f470046b0169c183247a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/military vehicle 1_01.wav using Guid(60433de4b0f470046b0169c183247a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7de3a2d344f1fcb1a7991b47d593989') in 0.010320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets Custom/SFX/Doe 3_02.wav
+  artifactKey: Guid(67b7adad491f1f24a9f51b504325aa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Doe 3_02.wav using Guid(67b7adad491f1f24a9f51b504325aa7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391ab931e16227ba90c1ada6d39d0b98') in 0.010016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Custom/SFX/soldier walking 3_01.wav
+  artifactKey: Guid(fff1cc48acc594745946688d53988bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/soldier walking 3_01.wav using Guid(fff1cc48acc594745946688d53988bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c85056c3a6d1ad98c3609d3bad7d936') in 0.010591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets Custom/SFX/soldier walking 2_01.wav
+  artifactKey: Guid(a56ab7c83e7e76541abe9968946489fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/soldier walking 2_01.wav using Guid(a56ab7c83e7e76541abe9968946489fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34526978a00e7f3477e4824a0a52b9b0') in 0.008666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Custom/SFX/distant soldiers_04.wav
+  artifactKey: Guid(586912110044dff40a961f16014bd02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/distant soldiers_04.wav using Guid(586912110044dff40a961f16014bd02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1b57ecc9af97494a5a0b999a159ab8') in 0.014273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets Custom/SFX/Doe 5_01.wav
+  artifactKey: Guid(dc43bded1d8a85d4484c0cddb73c454d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Doe 5_01.wav using Guid(dc43bded1d8a85d4484c0cddb73c454d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2d6967fabcfa93220e3224cd91aaf') in 0.010090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Custom/SFX/Crow_04.wav
+  artifactKey: Guid(113acefe9fbfbea4da2add34dc90b6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Crow_04.wav using Guid(113acefe9fbfbea4da2add34dc90b6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8787f8d89531afbc3f8b29b3b862e0') in 0.010563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets Custom/SFX/Crow 2_01.wav
+  artifactKey: Guid(fca2b442776774d419a3a229ffd99071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Crow 2_01.wav using Guid(fca2b442776774d419a3a229ffd99071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd051104c4a8c57000520af4e94e85b0b') in 0.013990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Custom/SFX/Doe 7_01.wav
+  artifactKey: Guid(caef76bdfa1dbd247a28acf79f78438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Doe 7_01.wav using Guid(caef76bdfa1dbd247a28acf79f78438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c8c0f1a2eeb9125f2eae69cd11ff9c') in 0.017740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets Custom/SFX/Doe 2_02.wav
+  artifactKey: Guid(988e5b1845312744f88a905cae61bb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Doe 2_02.wav using Guid(988e5b1845312744f88a905cae61bb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e23f067d0b4278e02d339f0051dd0eb') in 0.011542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Custom/SFX/piano.wav
+  artifactKey: Guid(675427f6906132a4d9358233f626d858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/piano.wav using Guid(675427f6906132a4d9358233f626d858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2f9764d1ff43741e0c5191f0f07b45') in 0.011462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets Custom/SFX/Doe 1_01.wav
+  artifactKey: Guid(f00f017b764c0404e898fde5a3daaad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Doe 1_01.wav using Guid(f00f017b764c0404e898fde5a3daaad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ea6f4f35c9b24c7c9e3a99586a78bf') in 0.014373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets Custom/SFX/wind 1_02.wav
+  artifactKey: Guid(ca16da73d152f734ba1ee27554e77529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/wind 1_02.wav using Guid(ca16da73d152f734ba1ee27554e77529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24456eace9a3ec9f2ccd867093c96f32') in 0.010364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets Custom/SFX/Doe 8 sniffing_01.wav
+  artifactKey: Guid(f5df35afc56c3264497ed606d44e7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Doe 8 sniffing_01.wav using Guid(f5df35afc56c3264497ed606d44e7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b138b82ff987aec0c7a2afe8ee85fbb') in 0.013435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets Custom/SFX/Fox sniffing 1_01.wav
+  artifactKey: Guid(bad7d070f5b64204784fb219008932cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Fox sniffing 1_01.wav using Guid(bad7d070f5b64204784fb219008932cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718d945b8885dfde45079d31f0d799e1') in 0.013374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Custom/SFX/Crow 3_01.wav
+  artifactKey: Guid(9c2c209852f6cb846960389be0a98d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets Custom/SFX/Crow 3_01.wav using Guid(9c2c209852f6cb846960389be0a98d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94fca55ceafec2615096a125dccb988') in 0.012252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
